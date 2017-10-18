@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name="TYPE")
+@DiscriminatorColumn(name="TYPE_BIS")
 public class Objet {
 	@Id
 	private int id;
